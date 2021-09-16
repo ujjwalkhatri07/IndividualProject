@@ -1,0 +1,36 @@
+{
+  "name": "Individual",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node": "14.15.1",
+    "npm": "6.14.8"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix ecommerce && npm run build --prefix ecommerce"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2",
+    "multer": "^1.4.2",
+    "path": "^0.12.7"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 1000,
+    "coveragePathignorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
