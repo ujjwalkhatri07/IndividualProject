@@ -110,7 +110,7 @@ class Header extends Component{
     
     <Form inline>
   
-    <Button href="/users/login" className="btn btn-success"><FaSignInAlt/> Sign in</Button>
+    <Button href="/users/login" className="btn btn-primary"><FaSignInAlt/> Sign in</Button>
     {/* <Button href="/user/login"><FaSignInAlt/> Sign in</Button> */}
   
   </Form>

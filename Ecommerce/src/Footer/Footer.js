@@ -11,7 +11,7 @@ class Footer extends Component{
 
         
 
-              <div style={{backgroundColor: '#21d192'}}>
+              <div style={{backgroundColor: '#ADD8E6'}}>
        
               <div className="container">
           
@@ -21,7 +21,7 @@ class Footer extends Component{
             
                   <div className="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
                     
-                    <h6 className="mb-0">Get connected with us on social networks!</h6>
+                    <h4 className="mb-0">Get connected with us on social networks!</h4>
                   </div>
               
           
@@ -82,7 +82,7 @@ class Footer extends Component{
                     <a className="dark-grey-text" href="#!">sastodeal</a>
                   </p>
                   <p>
-                    <a className="dark-grey-text" href="#!">pathau</a>
+                    <a className="dark-grey-text" href="#!">pathao</a>
                   </p>
           
                 </div>
@@ -114,7 +114,7 @@ class Footer extends Component{
                   <p>
                     <i className="fas fa-home mr-3"></i> Tokha-08, gairigaun, KTM</p>
                   <p>
-                    <i className="fas fa-envelope mr-3"></i>foodhunt@gmail.com</p>
+                    <i className="fas fa-envelope mr-3"></i>khatriujwal0@gmail.com</p>
                   <p>
                     <i className="fas fa-phone mr-3"></i> + 01 234 567 88</p>
                   <p>
