@@ -165,7 +165,7 @@ export default class Cart extends Component {
           <thead>
             <tr>
               <th>Product</th>
-              <th>Note</th>
+     
               <th>Quantity</th>
               <th>Price</th>
               <th>Update</th>
@@ -178,7 +178,6 @@ export default class Cart extends Component {
                 return (
                   <tr key={cart._id}>
                   <td>{cart.food.foodname}</td>
-                  <td>{cart.notes}</td>
                   <td>{cart.quanity}</td>
                   <td>{cart.food.price * cart.quanity}</td>   
                   <td>
@@ -198,7 +197,7 @@ export default class Cart extends Component {
             </tr>
             <tr>
               <td colSpan="6" align="right">
-              <button type="button" class="btn btn-lg btn-success"
+              <button type="button" class="btn btn-warning"
               onClick={this.submit} >Order</button>
               </td>
             </tr>

@@ -103,11 +103,11 @@ export default class ViewOrder extends Component {
                     <thead>
                     <tr>
                         
-                      <th>Food Name</th>
+                      <th>Product Name</th>
                       <th>Quantity</th>
                       <th>Price</th>
                       <th>Total Price</th>
-                      <th>Name</th>
+                      <th>Email</th>
                     </tr>
                     </thead>
                     <tbody>

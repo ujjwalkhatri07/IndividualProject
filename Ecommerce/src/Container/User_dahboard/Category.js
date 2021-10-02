@@ -143,11 +143,10 @@ export default class Category extends Component {
                     <Row>
                         <Col md={12}>
                             <span>What would you like to order ?{' '}
-                                <input style={{border: 'none',
-                                    borderBottom: '2px solid #1ABC9C'}} 
+                                <input 
                                     type="text" name="search" id="search" placeholder="search products..." 
                                     onChange={this.searchbyName}/>
-                                <FiSearch style={{fontSize:"30px", opacity:0.6}}/>
+                                <FiSearch style={{fontSize:"30px"}}/>
                             </span>
                         </Col>
                     </Row>
@@ -158,7 +157,7 @@ export default class Category extends Component {
                         <Col>
                             <div key={catIcon._id} onClick={()=>this.searchFood(catIcon._id, catIcon.category)} style={{cursor:'pointer'}}>
                                 <img alt="catPic" 
-                                    style={{ width:'40px', height:'40px'}}
+                                    style={{ width:'50px', height:'50px'}}
                                     className="categoryList"
                                     src ={BACKEND_URL+`/pictures/${catIcon.catImg}`} id="catImg"/> 
                                 <h6 className="text-center">{catIcon.category}</h6>
