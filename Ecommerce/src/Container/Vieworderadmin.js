@@ -54,6 +54,8 @@ class Vieworderadmin extends Component{
                       <th><h5>Email</h5></th>
                       <th><h5>Full Name</h5></th>
                       <th><h5>Contact</h5></th>
+                      <th><h5>Deliver</h5></th>
+
                     </tr>
                     </thead>
                     <tbody>
@@ -70,6 +72,7 @@ class Vieworderadmin extends Component{
                               <td><h6>{listItem.user.email}</h6></td>
                               <td><h6>{listItem.user.fullname}</h6></td>
                               <td><h6>{listItem.user.contact}</h6></td>
+                              <td><button className="btn btn-success">Deliver</button></td>
                             </tr>
                           )
                         })

@@ -102,7 +102,7 @@ class Header extends Component{
 
     
       <Nav.Link href="/store">Category<FaHotel/></Nav.Link>
-      <Nav.Link href="/insert/contact">Conatct us<FcOnlineSupport/></Nav.Link>
+      <Nav.Link href="/insert/contact">Contact us<FcOnlineSupport/></Nav.Link>
       
      
     
